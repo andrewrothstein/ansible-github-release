@@ -1,0 +1,7 @@
+---
+# vars file for github-release
+gr_platform: '{{gr_os}}_{{gr_cpu}}'
+gr_tgz: github-release_{{gr_ver}}_{{gr_platform}}.tar.gz
+gr_tgz_url: '{{gr_mirror}}/{{gr_ver}}/{{gr_tgz}}'
+gr_checksum: '{{gr_checksums[gr_platform]}}'
+gr_install_subdir: '{{gr_install_dir}}/github-release-{{gr_ver}}'

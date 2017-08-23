@@ -1,0 +1,10 @@
+---
+# defaults file for github-release
+gr_ver: v1.0.9
+gr_os: linux
+gr_cpu: amd64
+gr_checksums:
+  darwin_amd64: sha512:5ff202487dcf2678724f997ba5ea8273fe18d898b643e528eeb8a4d5b040d2d27733488a7f6581f2e932d08b193f728a4ffffc7f43a1d23fc658892e9566c5b1
+  linux_amd64: sha512:d9e13215ce810f19ac1825688a1d1da10f5c326939faab49bd664b0814354c9a5efdb6ed9c9e4762a0da2655fffd7c0eefd3cf78df4fcc30f56d60a49656d3e8
+gr_mirror: https://github.com/c4milo/github-release/releases/download
+gr_install_dir: /usr/local/bin
